@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## युवाओं को राजनितिक शिक्षा और नेतृत्व निर्माण की दिशा में एक पहल  
 
-You can use the [editor on GitHub](https://github.com/aadityadar/nyef/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+* क्या आप राजनीति को अपने जीवन अभिलाषा के रूप में देखते हैं?  
+* क्या आप राजनीति को संविधानिक मूल्यों से जोड़कर देखते हैं?  
+* क्या आप राजनीति से समावेशी बदलाव लाना चाहते हैं?  
+* क्या आप चुनाव लड़कर राजनीति की दिशा और दशा में बदलाव लाना चाहते हैं?   
+* क्या आप पंचायत चुनाव लड़ना चाहते हैं और पैसों की बजाय मुद्दों पर जितना चाहते हैं?  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+अगर उपरोक्त सवालों का जवाब “हाँ” हैं तो राष्ट्रीय युवा समता मंच के “राजनितिक शिक्षा कार्यक्रम से जुड़ने का सुनहरा अवसर मिल सकता है!  
 
-### Markdown
+पुरे बिहार से 100 चुनिन्दा उम्मीदवारों को अगले 3 महीने तक “राजनितिक शिक्षा” के सफ़र पर चलने का मौका मिलेगा जिसमें उन्हें अनेकों राजनितिक हुनर के साथ साथ जानकारी और पंचायत चुनाव की बारीकियों से रूबरू कराते हुए, बिहार और देश के अनेकों राजनीतिज्ञ, बुद्धिजीविओं, नेटवर्क से जुड़ने और सिखने का मौका दिया जायेगा !
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### अगले 3 महीने क्या होगा?
+1. चुनिन्दा उम्मीदवारों को पंचायती राज व्यवस्था से जुडी प्रशाशनिक, बज़ट, कार्यप्रणाली इत्यादि मुद्दों से अवगत कराया जायेगा
+2. निर्वाचन क्षेत्र विश्लेषण, बूथ स्तर की योजना निर्माण एवं चुनावी प्रचार अभियान की रणनिति बनाना
+3. पंचायत स्तर के विकास के आंकड़ो का विश्लेषण, जन सभा लगाना, युवा volunteers का संगठन निर्माण और ज़मीनी रणनीतियों का निर्माण
+4. बिहार और देश के कुशल राजनीतिज्ञों, बुद्धिजीवियों, कार्यकर्ताओं से सिखने और सिखाने का अवसर
+5. अगले 5 साल तक समावेशी और सबके विकास के लिए पंचायत निर्माण अभियान से जुड़ने का मौका
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aadityadar/nyef/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+आवेदन की अंतिम तारीख ३०थ जनुअरी 2021  
+जीतेंगे तो इमानदारी निभाएंगे, हारेंगे तो इमानदारी सिखायेंगे!  
+आवेदन पत्र के लिए निचे दिए लिंक पर जायें
