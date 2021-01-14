@@ -21,4 +21,4 @@
 
 जीतेंगे तो ईमानदारी और ज़िम्मेदारी निभाएँगे, हारेंगे तो ईमानदारी और ज़िम्मेदारी सिखाएँगे
 
-[आवेदन पत्र के लिए निचे दिए लिंक पर जायें](https://aadityadar.github.io/nyef/form.html)
+[आवेदन पत्र (click here)](https://aadityadar.github.io/nyef/form.html)
