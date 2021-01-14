@@ -110,13 +110,13 @@
                 <div class="card-body">
                     <h2 class="title">आवेदन पत्र</h2>
                     <form method="GET">
-                        <h4> आप कहां से चुनाव लड़ने की सोच रहे हैं?</h3><hr><br>
+                        <h4> Q1. आप कहां से चुनाव लड़ना चाहते हैं?</h3><hr><br>
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">जिला</label>
                                     <select class="input--style-4" name="district" id="districtSel" size="1">
-                                    <option value="" selected="selected">जिले का चयन करें</option>
+                                    <option value="" selected="selected">जिला चयन करें</option>
                                     </select>
                                 </div>
                             </div>
@@ -124,20 +124,40 @@
                                 <div class="input-group">
                                     <label class="label">ब्लॉक </label>
                                     <select class="input--style-4" name="block" id="blockSel" size="1">
-                                    <option value="" selected="selected">जिले का चयन करें</option>
+                                    <option value="" selected="selected">जिला चयन करें</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
                         <!-- <center> -->
+                        <!-- comment out
                                 <div class="input-group">
                                     <label class="label">पंचायत </label>
                                     <select class="input--style-4" name="panchayat" id="panchayatSel" size="1">
                                     <option value="" selected="selected">ब्लॉक का चयन करें</option>
                                     </select>
                                 </div>
+                        -->
                         <!-- </center> -->
-                        <h4> व्यक्तिगत विवरण </h3>
+                                                <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">पंचायत </label>
+                                    <select class="input--style-4" name="panchayat" id="panchayatSel" size="1">
+                                    <option value="" selected="selected">ब्लॉक चयन करें</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">पद</label>
+                                    <select class="input--style-4" name="post" id="postSel" size="1">
+                                    <option value="" selected="selected">पद चयन करें</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <h4> Q2. व्यक्तिगत विवरण </h3>
                         <hr><br>
                         <div class="input-group">
                             <label class="label">आपका नाम (मतदाता सूची के अनुसार)</label>
@@ -225,7 +245,7 @@
                         </div>
                         <h4> Survey Questions</h3>
                         <hr><br>
-
+                        <!-- comment out
                         <div class="input-group">
                             <label class="label">Q1. पंचायती राज चुनाव में किस पद के लिए उम्मीदवारी करना चाहते हैं ?</label>
                             <div class="input-group-icon">
@@ -239,7 +259,7 @@
                                 <textarea rows="5"  class="input--style-4" type="text" name="q2" id="q2"></textarea>
                             </div>
                         </div>
-     
+                        -->
                         <div class="input-group">
                             <label class="label">Q3. पंचायती राज चुनाव में क्यों उम्मीदवारी करना चाहते हैं ?</label>
                             <div class="input-group-icon">
