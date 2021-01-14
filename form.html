@@ -1,9 +1,31 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Application Form</title>
-        <script>
-            var fulldata = {'PASCHIM CHAMPARAN': 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Application Form</title>
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+    <script>
+         var fulldata = {'PASCHIM CHAMPARAN': 
             {'PIPRASI': 
             ['SEMRA LABEDAHA', 'MANJHARIYA', 'PIPRASI', 'SAURAHA', 'DUMRA MURADIH', 'DUMRI BHAGADAVAA', 'BALUA THORI'], 
             'MADHUBANI': ['KHOTAHVAA', 'MADHUA', 'MADHUBANI', 'SISAI', 'CHIURAHI', 'DHANHA', 'DAUNAHA', 'TAMKUHA', 'KATHAR', 
@@ -78,63 +100,254 @@
             }
             }
             }
-            </script>
-    </head>
-    <body>
-        <center>
-        <h2> Application Form </h2>
-        <form name="form_ap" id="form_ap">
-            Select District: <select name="district" id="districtSel" size="1">
-            <option value="" selected="selected">Select District</option>
-            </select>
-            <br>
-            <br>
-            Select Block: <select name="block" id="blockSel" size="1">
-            <option value="" selected="selected">Please select District first</option>
-            </select>
-            <br>
-            <br>
-            Select Panchayat: <select name="panchayat" id="panchayatSel" size="1">
-            <option value="" selected="selected">Please select Block first</option>
-            </select>
-            <br>
-            <br>
-            नाम: <input type="text" name="person_name" id="person_name">
-            <br>
-            <br>
-            माता का नाम: <input type="text" name="mother_name" id="mother_name">
-            <br>
-            <br>
-            पिता का नाम/पति/पत्नी का नाम: <input type="text" name="father_name" id="father_name">
-            <br>
-            <br>
-            उम्र: <input type="text" name="age" id="age">
-            <br>
-            <br>
-            लिंग:  <input type="text" name="gender" id="gender">
-            <br>
-            <br>
-            आधार नं०:  <input type="text" name="aadhar" id="aadhar">
-            <br>
-            <br>
-            मोबाइल नं०:  <input type="text" name="mobile" id="mobile">
-            <br>
-            <br>
-            ई-मेल आई० डी०:  <input type="text" name="email" id="email">
-            <br>
-            <br>
-            दिव्यांगता:  <input type="text" name="handicap" id="handicap">
-            <br>
-            <br>
-            शैक्षणिक योग्यता:  <input type="text" name="saiksha" id="saiksha">
-            <br>
-            <br>
-            वर्ग:  <input type="text" name="varg" id="varg">
-            <br>
-            <br>
-           
-            <input type="submit">
-            </form>
-        </center>
-    </body>
+    </script>
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h2 class="title">Application Form</h2>
+                    <form method="GET">
+                        <h4> Location Details</h3><hr><br>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Select District</label>
+                                    <select class="input--style-4" name="district" id="districtSel" size="1">
+                                    <option value="" selected="selected">Select District</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Select Block</label>
+                                    <select class="input--style-4" name="block" id="blockSel" size="1">
+                                    <option value="" selected="selected">Select District</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <center>
+                                <div class="input-group">
+                                    <label class="label">Select Panchayat</label>
+                                    <select class="input--style-4" name="panchayat" id="panchayatSel" size="1">
+                                    <option value="" selected="selected">Select Block</option>
+                                    </select>
+                                </div>
+                        </center>
+                        <h4> Personal Details</h3>
+                        <hr><br>
+                        <div class="input-group">
+                            <label class="label">नाम</label>
+                            <div class="input-group-icon">
+                                <input class="input--style-4" type="text" name="person_name" id="person_name">
+                            </div>
+                        <div class="input-group">
+                            <label class="label">माता का नाम</label>
+                            <div class="input-group-icon">
+                                <input class="input--style-4" type="text" name="mother_name" id="mother_name">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">पिता का नाम/पति/पत्नी का नाम</label>
+                            <div class="input-group-icon">
+                                <input class="input--style-4" type="text" name="father_name" id="father_name">
+                            </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">उम्र</label>
+                                    <div class="input-group-icon">
+                                        <input class="input--style-4" type="text" name="age" id="age">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">लिंग</label>
+                                        <div class="input-group-icon">
+                                            <input class="input--style-4" type="text" name="gender" id="gender">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">आधार नं</label>
+                            <div class="input-group-icon">
+                                <input class="input--style-4" type="text" name="aadhar" id="aadhar">
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">ई-मेल आईडी</label>
+                                    <input class="input--style-4" type="email" name="email" id="email">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">मोबाइल नं</label>
+                                    <input class="input--style-4" type="text" name="phone" id="phone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">दिव्यांगता</label>
+                            <div class="input-group-icon">
+                                <input class="input--style-4" type="text" name="handicap" id="handicap">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">शैक्षणिक योग्यता</label>
+                            <div class="input-group-icon">
+                                <input class="input--style-4" type="text" name="saiksha" id="saiksha">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">वर्ग</label>
+                            <div class="input-group-icon">
+                                <input class="input--style-4" type="text" name="varg" id="varg">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">प्रमंडल का नाम</label>
+                            <div class="input-group-icon">
+                                <input class="input--style-4" type="text" name="pramandal" id="pramandal">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">पूरा पता</label>
+                            <div class="input-group-icon">
+                                <textarea rows="4" cols="50" class="input--style-4" type="text" name="address" id="address"></textarea>
+                            </div>
+                        </div>
+                        <h4> Survey Questions</h3>
+                        <hr><br>
+
+                        <div class="input-group">
+                            <label class="label">Q1. पंचायती राज चुनाव में किस पद के लिए उम्मीदवारी करना चाहते हैं ?</label>
+                            <div class="input-group-icon">
+                                <textarea rows="5" cols="50" class="input--style-4" type="text" name="q1" id="q1"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label class="label">Q2. किस जिला/ब्लोक/पंचायत का नाम जहाँ से चुनाव लड़ना चाहते हैं ?</label>
+                            <div class="input-group-icon">
+                                <textarea rows="5" cols="50" class="input--style-4" type="text" name="q2" id="q2"></textarea>
+                            </div>
+                        </div>
+     
+                        <div class="input-group">
+                            <label class="label">Q3. पंचायती राज चुनाव में क्यों उम्मीदवारी करना चाहते हैं ?</label>
+                            <div class="input-group-icon">
+                                <textarea rows="5" cols="50" class="input--style-4" type="text" name="q3" id="q3"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label class="label">Q4. पंचायती राज चुनाव लड़ने के लिए, क्या आप अपनी मजबूतियों को बता सकते हैं ?<br>
+                            
+                                    1. खुद के स्तर पर <br>
+                                    2. परिवार के स्तर से <br>
+                                    3. समाज के स्तर से <br>
+                                    4. अन्य सहयोगात्मक नेटवर्क या कुशलता के स्तर पर </label>
+                              
+                            <div class="input-group-icon">
+                                <textarea rows="5" cols="50" class="input--style-4" type="text" name="q4" id="q4"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label class="label">Q5. क्या आप पहले भी चुनाव लड़ चुके हैं ? अपने अनुभव को साझा करें ?</label>
+                            <div class="input-group-icon">
+                                <textarea rows="5" cols="50" class="input--style-4" type="text" name="q5" id="q5"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label class="label">Q6. चुनाव लड़ने के लिए आपको किस प्रकार के संसाधनों ( मानवीय, आर्थिक या अन्य किस भी प्रकार के) की जरुरत होगी ? </label>
+                            <div class="input-group-icon">
+                                <textarea rows="5" cols="50" class="input--style-4" type="text" name="q6" id="q6"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label class="label">Q7. अभी तक के अपने सामाजिक योगदानों का उल्लेख करें, जिसके आधार पर आपको चुनाव जितने की उम्मीद है ?</label>
+                            <div class="input-group-icon">
+                                <textarea rows="5" cols="50" class="input--style-4" type="text" name="q7" id="q7"></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label class="label">Q8. आपने राजनीति में भागीदारी के विषय पर कब से सोचना शुरू किया ?</label>
+                            <div class="input-group-icon">
+                                <textarea rows="5" cols="50" class="input--style-4" type="text" name="q8" id="q8"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label class="label">Q9. चुनाव जीतने के बाद आपकी मुख्य प्राथमिकताएँ क्या होगी ?</label>
+                            <div class="input-group-icon">
+                                <textarea rows="5" cols="50" class="input--style-4" type="text" name="q9" id="q9"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label class="label">Q10. अगर आप चुनाव हार गए तो किस प्रकार राजनीति में भागीदारी करेंगे ?</label>
+                            <div class="input-group-icon">
+                                <textarea rows="5" cols="50" class="input--style-4" type="text" name="q10" id="q10"></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label class="label">Q11. क्या आप किसी संगठन / नेटवर्क / राजनितिक पार्टी से जुड़े हैं ? सबका नाम बताएं ?</label>
+                            <div class="input-group-icon">
+                                <textarea rows="5" cols="50" class="input--style-4" type="text" name="q11" id="q11"></textarea>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Q12. आने वाले चुनाव में आपको राष्ट्रीय युवा समता मंच (NYEF) से किस प्रकार के सहयोग की उम्मीदें हैं ?</label>
+                            <div class="input-group-icon">
+                                <textarea rows="5" cols="50" class="input--style-4" type="text" name="q12" id="q12"></textarea>
+                            </div>
+
+                        <!-- <div class="input-group">
+                            <label class="label">Subject</label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="subject">
+                                    <option disabled="disabled" selected="selected">Choose option</option>
+                                    <option>Subject 1</option>
+                                    <option>Subject 2</option>
+                                    <option>Subject 3</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div> -->
+                        <center>
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
+                        </div>
+                    </center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
 </html>
+<!-- end document-->
