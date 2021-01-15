@@ -100,6 +100,11 @@
             panchayatSel.options[panchayatSel.options.length] = new Option(panchayat[i], panchayat[i]);
             }
             }
+                 var postSel = document.getElementById("postSel");
+            for(var post in postlist)
+            {
+                postSel.options[postSel.options.length] = new Option(post,post);
+            }
             }
     </script>
 </head>
