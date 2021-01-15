@@ -128,7 +128,7 @@
                                 <div class="input-group">
                                     <label class="label">प्रमंडल</label>
                                     <select class="input--style-4" name="division" id="division" size="1">
-                                    <option value="" selected="selected"> प्रमंडलचयन करें</option>
+                                    <option value="" selected="selected"> प्रमंडल चयन करें</option>
                                         <option value="saran">सारण</option>
                                         <option value="bhagalpur">भागलपुर</option>
                                         <option value="munger">मुंगेर</option>
@@ -271,9 +271,11 @@
                                             </select>                                           
                             </div>
                         </div>
+                             <div class="row row-space">
+                            <div class="col-2">
                         <div class="input-group">
-                            <label class="label">वर्ग</label>
                             <div class="input-group-icon">
+                            <label class="label">वर्ग</label>
                                 <!-- <input class="input--style-4" type="text" name="socialgroup" id="socialgroup"> -->
                                 <select name="socialgroup" id="socialgroup" class="input--style-4">
                                     <option selected="selected">वर्ग चयन करें </option>
@@ -286,18 +288,32 @@
                                     
                             </div>
                         </div>
+                                 
                         <div class="input-group">
-                            <label class="label">प्रमंडल का नाम</label>
+                            <div class="col-2">
+                            <label class="label">धर्म</label>
                             <div class="input-group-icon">
-                                <input class="input--style-4" type="text" name="pramandal" id="pramandal">
+                                <!--<input class="input--style-4" type="text" name="pramandal" id="pramandal"> -->
+                                <select name="religion" id="religion" class="input--style-4">
+                                    <option selected="selected"> धर्म चयन करें</option>
+                                    <option value="hindu">हिन्दू</option>
+                                    <option value="muslim">मुस्लिम </option>
+                                    <option value="buddhist">बुद्धिस्ट</option>
+                                    <option value="christian">इसाई</option>
+                                    <option value="other">अन्य</option>
+                                </select>
                             </div>
                         </div>
+                  </div>
+                                 
                         <div class="input-group">
                             <label class="label">पूरा पता</label>
                             <div class="input-group-icon">
                                 <textarea rows="4"  class="input--style-4" type="text" name="address" id="address"></textarea>
                             </div>
                         </div>
+                  </div>
+                            
                         <h4> Survey Questions</h3>
                         <hr><br>
                         <!-- comment out
