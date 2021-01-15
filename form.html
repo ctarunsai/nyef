@@ -101,9 +101,9 @@
             }
             }
                  var postSel = document.getElementById("postSel");
-            for (var i = 0; i < postlist.length; i++)
+            for(var post in postlist)
             {
-                postSel.options[postSel.options.length] = new Option(postlist[i],postlist[i]);
+                postSel.options[postSel.options.length] = new Option(post,post);
             }
             }
     </script>
@@ -239,7 +239,15 @@
                         <div class="input-group">
                             <label class="label">शैक्षणिक योग्यता</label>
                             <div class="input-group-icon">
-                                <input class="input--style-4" type="text" name="education" id="education">
+                               <!-- <input class="input--style-4" type="text" name="education" id="education"> -->
+                                            <select name="education" id="education" class="input--style-4">
+                                                <option selected="selected">शैक्षणिक योग्यता चयन करें </option>
+                                                <option value="class 8">आठवीं पास</option>
+                                                <option value="class 10">दसवीं पास</option>
+                                                <option value="class 12">बारहवीं पास</option>
+                                                <option value="graduate">बीए</option>
+                                                <option value="postgraduate">मए</option>
+                                            </select>                                           
                             </div>
                         </div>
                         <div class="input-group">
