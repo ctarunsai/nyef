@@ -101,9 +101,9 @@
             }
             }
                  var postSel = document.getElementById("postSel");
-            for(var post in postlist)
+            for (var i = 0; i < postlist.length; i++)
             {
-                postSel.options[postSel.options.length] = new Option(post,post);
+                postSel.options[postSel.options.length] = new Option(postlist[i],postlist[i]);
             }
             }
     </script>
