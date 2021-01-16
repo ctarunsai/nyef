@@ -100,11 +100,11 @@
             panchayatSel.options[panchayatSel.options.length] = new Option(panchayat[i], panchayat[i]);
             }
             }
-                 var postSel = document.getElementById("postSel");
-            for(var post in postlist)
-            {
-                postSel.options[postSel.options.length] = new Option(post,post);
-            }
+            //      var postSel = document.getElementById("postSel");
+            // for(var post in postlist)
+            // {
+            //     postSel.options[postSel.options.length] = new Option(post,post);
+            // }
             }
     </script>
 </head>
@@ -121,14 +121,14 @@
                     <p>यदि आपको इस फ़ॉर्म को पूरा करने में कठिनाई हो रही है, तो कृपया सौरव (NYEF बिहार) 7992203709 से संपर्क करें </p>
                     <br>
 
-                    <form method="GET">
+                    <form name="myForm" id="myForm" data-gf-url="https://docs.google.com/forms/d/e/1FAIpQLScude1EFDNd0CzZss8Bu7hIc8h27ZLUp6k6MtCThqolrAEmiQ/formResponse?usp=pp_url&entry.864142636=division&entry.47107310=district&entry.155344047=block&entry.1803391463=panchayat&entry.2018993437=post&entry.116489686=person_name&entry.394069060=mother_name&entry.1655221761=father_name&entry.289331429=age&entry.2126968489=gender&entry.1530381537=aadhar&entry.984373323=email&entry.885805882=phone&entry.761802220=disability&entry.778993800=education&entry.1847633948=socialgroup&entry.1782403857=religion&entry.2043355386=address&entry.1116063032=q3&entry.1253471128=q4&entry.1447017293=q5&entry.1406756132=q6&entry.1812134146=q7&entry.699535395=q8&entry.499498464=q9&entry.276531130=q10&entry.279673906=q11&entry.1929760479=q12&entry.282687970=q13&entry.1938272880=q14&submit=SUBMIT">
                         <h4> Q1. आप कहां से चुनाव लड़ना चाहते हैं?</h3><hr><br>
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">प्रमंडल</label>
                                     <select class="input--style-4" name="division" id="division" size="1">
-                                    <option value="" selected="selected"> प्रमंडल चयन करें</option>
+                                    <option value=""> प्रमंडल चयन करें</option>
                                         <option value="saran">सारण</option>
                                         <option value="bhagalpur">भागलपुर</option>
                                         <option value="munger">मुंगेर</option>
@@ -146,7 +146,7 @@
                                 <div class="input-group">
                                     <label class="label">जिला</label>
                                    <select class="input--style-4" name="district" id="districtSel" size="1">
-                                    <option value="" selected="selected">जिला चयन करें</option>
+                                    <option value="">जिला चयन करें</option>
                                     </select>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@
                                 <div class="input-group">
                                     <label class="label">पंचायत </label>
                                     <select class="input--style-4" name="panchayat" id="panchayatSel" size="1">
-                                    <option value="" selected="selected">ब्लॉक का चयन करें</option>
+                                    <option value="" >ब्लॉक का चयन करें</option>
                                     </select>
                                 </div>
                         -->
@@ -166,7 +166,7 @@
                                 <div class="input-group">
                                   <label class="label">ब्लॉक </label>
                                     <select class="input--style-4" name="block" id="blockSel" size="1">
-                                    <option value="" selected="selected">जिला चयन करें</option>
+                                    <option value="" >जिला चयन करें</option>
                                     </select>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@
                                 <div class="input-group">
                                   <label class="label">पंचायत </label>
                                     <select class="input--style-4" name="panchayat" id="panchayatSel" size="1">
-                                    <option value="" selected="selected">ब्लॉक चयन करें</option>
+                                    <option value="" >ब्लॉक चयन करें</option>
         
                                     </select>
                                 </div>
@@ -184,7 +184,7 @@
                         <div class="input-group">
                                     <label class="label">पद</label>
                                     <select name="post" id="post" class="input--style-4">
-                                        <option selected="selected" value="mukhiya">मुखिया</option>
+                                        <option  value="mukhiya">मुखिया</option>
                                         <option value="panchayatisamiti">पंचायत समिति मेंबर</option>
                                         <option value="ward">वार्ड मेंबर</option>
                             </select>
@@ -223,7 +223,7 @@
                                         <div class="input-group-icon">
                                             <!-- <input class="input--style-4" type="text" name="gender" id="gender"> -->
                                             <select name="gender" id="gender" class="input--style-4">
-                                                <option selected="selected">लिंग चयन करें</option>
+                                                <option value="">लिंग चयन करें</option>
                                                 <option value="male">पुरुष</option>
                                                 <option value="female">महिला</option>
                                                 <option value="third">तृतीय लिंग</option>
@@ -259,7 +259,7 @@
                                     <label class="label">दिव्यांगता</label>
                                     <div class="input-group-icon">
                                          <select name="disability" id="disability" class="input--style-4">
-                                                <option selected="selected">कृप्या चयन करें </option>
+                                                <option value="">कृप्या चयन करें </option>
                                                 <option value="none">कोई दिव्यांगता नहीं</option>
                                                 <option value="visual">दृष्टि क्षीणता</option>
                                                 <option value="hearing">श्रवण दिव्यांगता</option>
@@ -276,7 +276,7 @@
                                     <label class="label">शैक्षणिक योग्यता</label>
                                         <div class="input-group-icon">
                                         <select name="education" id="education" class="input--style-4">
-                                                <option selected="selected">शैक्षणिक योग्यता चयन करें </option>
+                                                <option value="">शैक्षणिक योग्यता चयन करें </option>
                                                 <option value="class 8">आठवीं पास</option>
                                                 <option value="class 10">दसवीं पास</option>
                                                 <option value="class 12">बारहवीं पास</option>
@@ -294,7 +294,7 @@
                                     <label class="label">वर्ग</label>
                                     <div class="input-group-icon">
                                         <select name="socialgroup" id="socialgroup" class="input--style-4">
-                                    <option selected="selected">वर्ग चयन करें </option>
+                                    <option value="">वर्ग चयन करें </option>
                                     <option value="SC">अनुसूचित जाति</option>
                                     <option value="ST">अनुसूचित जनजाति</option>
                                     <option value="EBC">अत्यंत पिछड़ी जाति</option>
@@ -309,7 +309,7 @@
                                     <label class="label">धर्म</label>
                                         <div class="input-group-icon">
                                            <select name="religion" id="religion" class="input--style-4">
-                                    <option selected="selected"> धर्म चयन करें</option>
+                                    <option value=""> धर्म चयन करें</option>
                                     <option value="hindu">हिन्दू</option>
                                     <option value="muslim">मुस्लिम </option>
                                     <option value="buddhist">बुद्धिस्ट</option>
@@ -428,14 +428,14 @@
                         <div class="input-group">
                             <label class="label">Q13. आपको राष्ट्रीय युवा समता मंच (NYEF) के राजनितिक शिक्षा कार्यक्रम के बारे में कैसे पता चला?</label>
                             <div class="input-group-icon">
-                                <textarea rows="5"  class="input--style-4" type="text" name="q11" id="q11"></textarea>
+                                <textarea rows="5"  class="input--style-4" type="text" name="q13" id="q13"></textarea>
                             </div>
                         </div>
                             
                         <div class="input-group">
                             <label class="label">Q14. क्या आप अपने आवेदन में कुछ और/कोई अन्य सूचना उल्लेख करना चाहेंगे? </label>
                             <div class="input-group-icon">
-                                <textarea rows="5"  class="input--style-4" type="text" name="q11" id="q11"></textarea>
+                                <textarea rows="5"  class="input--style-4" type="text" name="q14" id="q14"></textarea>
                             </div>
                         </div>
                             
@@ -443,7 +443,7 @@
                             <label class="label">Subject</label>
                             <div class="rs-select2 js-select-simple select--no-search">
                                 <select name="subject">
-                                    <option disabled="disabled" selected="selected">Choose option</option>
+                                    <option disabled="disabled" >Choose option</option>
                                     <option>Subject 1</option>
                                     <option>Subject 2</option>
                                     <option>Subject 3</option>
@@ -462,6 +462,8 @@
         </div>
     </div>
 
+
+
     <!-- Jquery JS-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <!-- Vendor JS-->
@@ -471,6 +473,40 @@
 
     <!-- Main JS-->
     <script src="js/global.js"></script>
+    <script src="js/savestorage.min.js"></script>
+    <script>
+        saveStorage('#myForm');
+    </script>
+
+    <script type="text/javascript">
+        window.addEventListener("load", function () {
+        const form = document.querySelector("form");
+        
+        form.addEventListener("submit", function ( event ) {
+            event.preventDefault();
+            sendData();
+        } );
+        
+        function sendData() {
+            const FD = new FormData(form);
+    
+            let url = form.dataset.gfUrl;
+            for(let [key, value] of FD) {
+            url = url.replace(key, value);
+            console.log(url)
+            }
+    
+            let opts = {
+            method: "POST",
+            mode: "no-cors",
+            redirect: "follow", 
+            referrer: "no-referrer"
+            }
+    
+            return fetch(url, opts).then(alert('Success')).catch((e) => {alert('Error:', e);});
+        }
+        } );
+    </script>
 
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 
